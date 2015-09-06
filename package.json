@@ -1,0 +1,23 @@
+{
+  "name": "yunxun-node-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seasidesun/yunxun-node-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seasidesun/yunxun-node-sdk/issues"
+  },
+  "homepage": "https://github.com/seasidesun/yunxun-node-sdk",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.61.0"
+  }
+}
