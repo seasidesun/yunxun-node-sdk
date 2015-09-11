@@ -2,13 +2,18 @@
 
 var yunxun = require('../index.js');
 
-
-
 //the first param is phoneNumber
 //the second param is the str that will replace tamplate's {1}\{2}
 //the third param is the key that set in the file(../lib/config.js)'s TEMPLATE
 
-yunxun.sendOne('1593361XXXX', '986152', 'code', function (err, ret) {
+yunxun.setTemplate({
+	'Template_1': { //测试通道-秒杀
+        appID: 'faf28de434c74d681cc69131ax728a1074',
+        templateID: '6869'
+    }
+});
+
+yunxun.sendOne('1803361XXXX', 'XXXXXX', 'Template_1', function (err, ret) {
 	console.log(err, ret);
 });
 
