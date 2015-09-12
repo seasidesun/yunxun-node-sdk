@@ -13,6 +13,11 @@ yunxun.setTemplate({
     }
 });
 
+yunxun.setConfig({
+	accountSid: '80ef7bc1b70f2315a592d27e37e0bf19',
+	authToken: '13f3ad08d1a0814726054bd963ecc301'
+});
+
 yunxun.sendOne('1803361XXXX', 'XXXXXX', 'Template_1', function (err, ret) {
 	console.log(err, ret);
 });
